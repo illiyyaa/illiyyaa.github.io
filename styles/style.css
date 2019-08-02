@@ -1,3 +1,374 @@
+/* Start Body */
 body {
-	background-color: lightblue;
-  }
+    background-color: white;
+    background-image: url(../images/stripes1.jpg);
+    color:gray;
+    font-family: Sans-serif, Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue{
+    background-color: blue;
+}
+.bg-red{
+    background-color: red;
+}
+/* End Debug */
+
+/* Start Heading */
+h1 {
+    font-family: Sans-serif, Courier, monospace;
+    color: grey;
+    font-style: italic;
+}
+
+p {
+    font-family: Sans-serif, Courier, monospace;
+    color: grey;
+}
+
+/* Start Container */
+.container {
+    background-color:burlywood;
+    margin: 10px auto; /* atas kanan bawah kiri */
+    overflow: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.container--full {
+    background-color: white;
+    margin: 10px auto; /* atas kanan bawah kiri */
+    overflow: auto;
+    width: 90%;
+    padding: 10px;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link, a:visited{
+    color: #0366d6;
+    text-decoration: none;
+
+}
+a:hover, a:active{
+    color: #000000;
+    text-decoration: underline;
+}
+/* Start Anchor / Hyperlink */
+
+/* Start Menu-Primer */
+.menu-primer ul{
+    background-color:gray;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 10px 0 rgba(0,0,0,.12);
+    text-align: center;
+}
+
+.menu-primer li {
+    border-right: 1px solid;
+    display: inline-block;
+    margin: 0 0px;
+}
+
+.menu-primer a{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase
+}
+
+.menu-primer a:hover{
+    background-color: sienna;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-primer .active{
+    background-color: white;
+    color: gray;
+    text-decoration: none;
+}
+/* End Menu-Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-weight: 18px;
+}
+h4{
+    font-weight: 16px;
+}
+h5{
+    font-weight: 14px;
+}
+h6{
+    font-weight: 13;
+}
+
+/* End Heading
+
+/* Start Jumbotrone */
+.jumbotrone{
+    background-color: navajowhite;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+
+.jumbotrone h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+.jumbotrone h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+/* End Jumbotrone */
+
+/* Start Main */
+.main-home-one{
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two{
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi{
+    height: 140px;
+}
+
+.main-one{
+    float: left;
+    overflow: auto;
+    width: 70%;
+}
+
+.sidebar-two{
+    float: right;
+    overflow: auto;
+    width: 29%;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.box-heading h4{
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi{
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+/* End Box */
+
+/* Start Testimonial */
+.testimonial{
+    border-left: 4px solid black;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* End Testimonial */
+
+/* Start Layanan Table */
+
+/* End Layanan Table */
+
+ 
+/* Start Menu Sekunder */
+.menu-sekunder{
+    background-color: none;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul{
+    padding: 0;
+}
+
+.menu-sekunder li{
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+
+.menu-sekunder-one, 
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+}
+
+.menu-sekunder-one{
+    width: 40%;
+}
+
+.menu-sekunder-two, .menu-sekunder-three{
+    width: 30%;
+}
+
+.menu-sekunder li img{
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p{
+    font-size: 15px;
+}
+
+.copyright-1{
+    background: none;
+}
+/* End Copyright */
+
+/* Start Wow Factor */
+@import url(https://fonts.googleapis.com/css?family=Monsterrat:400,700;);
+.snip1553 {
+  background-color: #222222;
+  color: #ffffff;
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  max-width: 31%;
+  min-width: 31%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.snip1553 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1553:after {
+  background-color: #B46E3C;
+  bottom: 0;
+  content: '';
+  height: 0%;
+  right: 0;
+  position: absolute;
+  width: 10px;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1553 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1553 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1em;
+  opacity: 0;
+}
+
+.snip1553 h3 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1553 h3 span {
+  display: block;
+  font-weight: 700;
+}
+
+.snip1553 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1553:hover > img,
+.snip1553.hover > img {
+  opacity: 0.1;
+}
+
+.snip1553:hover:after,
+.snip1553.hover:after {
+  height: 100%;
+}
+
+.snip1553:hover figcaption,
+.snip1553.hover figcaption {
+  opacity: 1;
+}
+/* End Wow Factor */
