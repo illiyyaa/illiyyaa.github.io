@@ -9,6 +9,9 @@ body {
     margin: 0;
     padding: 0;
 }
+.warna{
+    color: white
+}
 /* End Body */
 
 /* Start Debug */
@@ -27,14 +30,9 @@ h1 {
     font-style: italic;
 }
 
-p {
-    font-family: Sans-serif, Courier, monospace;
-    color: grey;
-}
-
 /* Start Container */
 .container {
-    background-color:burlywood;
+    background-color: rgb(236, 201, 156);
     margin: 10px auto; /* atas kanan bawah kiri */
     overflow: auto;
     width: 90%;
@@ -136,10 +134,14 @@ h6{
 
 /* Start Jumbotrone */
 .jumbotrone{
-    background-color: navajowhite;
+    background-color: sienna;
     border: 1px solid #eaecef;
     border-radius: 4px;
-    padding: 20px 0;
+    padding: 10px;
+    margin: 10px auto; /* atas kanan bawah kiri */
+    overflow: auto;
+    width: 90%;
+    padding: 10px;
 }
 
 .jumbotrone h1{
@@ -149,6 +151,11 @@ h6{
 
 .jumbotrone h3{
     font-size: 20px;
+    padding: 0 20px;
+}
+
+.jumbotrone h4{
+    font-size: 18px;
     padding: 0 20px;
 }
 
